@@ -50,7 +50,7 @@
 
 <div id="navbar">
     <a href="#">HOME</a>
-    <a href="#">ABOUT ME</a>
+    <a href="aboutme.php">ABOUT ME</a>
     <a href="#">HOBBIES</a>
     <a href="#">SKILLS</a>
     <a href="#">CONTACT ME</a>
