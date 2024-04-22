@@ -20,6 +20,9 @@
         }
         #container {
             padding: 20px;
+            opacity: 0;
+            transform: scale(0);
+            transition: transform 0.5s, opacity 0.5s;
         }
         .skill {
             margin-bottom: 20px;
@@ -97,15 +100,11 @@
 </div>
 
 <script>
-    // Add animation effect to progress bars
-    let progressBars = document.querySelectorAll('.progress');
-    progressBars.forEach((progress) => {
-        let width = progress.style.width;
-        progress.style.width = '0';
-        setTimeout(() => {
-            progress.style.width = width;
-        }, 100);
-    });
+    // Add animation effects or transitions using JavaScript or CSS
+    window.onload = function() {
+        document.getElementById("container").style.transform = "scale(1)";
+        document.getElementById("container").style.opacity = "1";
+    };
 </script>
 
 </body>
