@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>My Portfolio - Monica V. Lazaro</title>
     <style>
         body {
             background: linear-gradient(to bottom right, #000000, #808080, #ffffff);
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            color: white;
         }
         #header {
             background-color: #333;
@@ -37,7 +38,6 @@
         #container {
             padding: 20px;
             text-align: center;
-            color: white;
         }
     </style>
 </head>
@@ -45,14 +45,14 @@
 
 <div id="header">
     <img src="logo.png" alt="Logo" width="100">
-    <h1>My Portfolio</h1>
+    <h1>My Portfolio - Monica V. Lazaro</h1>
 </div>
 
 <div id="navbar">
     <a href="#">HOME</a>
-    <a href="aboutme.html">ABOUT ME</a>
+    <a href="#">ABOUT ME</a>
     <a href="#">HOBBIES</a>
-    <a href="skills.html">SKILLS</a>
+    <a href="#">SKILLS</a>
     <a href="#">CONTACT ME</a>
     <a href="#">BLOG</a>
 </div>
@@ -65,8 +65,9 @@
 
 <script>
     // Add animation effects or transitions using JavaScript or CSS
-    // For example:
-    // document.getElementById("container").style.transition = "transform 0.5s";
+    window.onload = function() {
+        document.getElementById("container").style.transform = "scale(1)";
+    };
 </script>
 
 </body>
